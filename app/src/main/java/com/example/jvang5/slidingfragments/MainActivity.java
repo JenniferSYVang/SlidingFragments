@@ -1,5 +1,6 @@
 package com.example.jvang5.slidingfragments;
 
+import android.net.Uri;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -61,7 +62,10 @@ public class MainActivity extends AppCompatActivity implements FirstFragment.OnF
         });
 
     }
+    @Override
+    public void onFragment1Interaction(Uri uri){
 
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
